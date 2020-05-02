@@ -6,11 +6,6 @@ html {
     background-size: cover;
   }
 
-header {
-    background-color: rgb(45, 73, 41);
-    background-image: url(../../../Pictures/Projets/TP2_CW/arbresfond.png);
-}
-
 body {
     background-color: forestgreen;
     color: black;
@@ -46,8 +41,7 @@ body {
   
   .image-area {
     height: 60px;
-    background-image: url(cloud.jpeg);
-    background-color: black;
+    background-image: url(../../../Pictures/Projets/TP2_CW/banniere.png);
     background-position: center center;
     background-size: cover;
     padding-top: 60px;
@@ -61,10 +55,10 @@ body {
   }
   
   .image-text {
+    font-weight: bold;
     text-align: center;
-    background-color: black;
-    color: white;
-    font-size: 2.5rem;
+    color: rgb(154, 226, 9);
+    font-size: 44px;
   }
   
   .intro-text {
