@@ -1,0 +1,100 @@
+html { 
+    background: url(../../../Pictures/Projets/TP2_CW/treeplanters.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+header {
+    background-color: rgb(45, 73, 41);
+    background-image: url(../../../Pictures/Projets/TP2_CW/arbresfond.png);
+}
+
+body {
+    background-color: forestgreen;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 40px;
+  }
+  
+  .nav {
+    background-color: rgb(60, 126, 34);
+    color: white;
+  }
+  
+  .nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+  }
+  
+  .nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    transition: background-color 0.2s;
+  }
+  
+  .nav ul li:hover {
+    background-color: rgb(63, 77, 15);
+  }
+  
+  .image-area {
+    height: 60px;
+    background-image: url(cloud.jpeg);
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+  
+  .centered-container {
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+  }
+  
+  .image-text {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  .intro-text {
+    max-width: 1020px;
+    margin: 0px auto;
+    color: gray;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .single-service {
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 0px 16px;
+  }
+  
+  
+  @media screen and (min-width: 700px) {
+    .nav ul {
+      text-align: right;
+    }
+  
+    .nav ul li {
+      display: inline-block;
+      border-bottom: 0px;
+      border-left: 1px solid black;
+      text-align: left;
+    }
+  
+    
+  }
